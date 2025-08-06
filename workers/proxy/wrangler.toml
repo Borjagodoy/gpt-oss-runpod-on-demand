@@ -1,0 +1,12 @@
+name = "gpt-proxy-worker"
+main = "src/proxy.js"
+compatibility_date = "2025-08-06"
+
+[vars]
+RUNPOD_API_KEY = "your_runpod_api_key"
+RUNPOD_POD_ID = "your_pod_id"
+RUNPOD_POD_IP = "your_pod_ip"
+
+[[kv_namespaces]]
+binding = "LAST_REQUEST_KV"
+id = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
